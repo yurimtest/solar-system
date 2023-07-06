@@ -1,0 +1,91 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+    font-family: 'pretendard-black';
+    src: url("/src/font/Pretendard-Black.otf");
+}
+@font-face {
+    font-family: 'pretendard-bold';
+    src: url("/src/font/Pretendard-Bold.otf");
+}
+@font-face {
+    font-family: 'pretendard-extrabold';
+    src: url("/src/font/Pretendard-ExtraBold.otf");
+}
+@font-face {
+    font-family: 'pretendard-extralight';
+    src: url("/src/font/Pretendard-ExtraLight.otf");
+}
+@font-face {
+    font-family: 'pretendard-light';
+    src: url("/src/font/Pretendard-Light.otf");
+}
+@font-face {
+    font-family: 'pretendard-medium';
+    src: url("/src/font/Pretendard-Medium.otf");
+}
+@font-face {
+    font-family: 'pretendard-regular';
+    src: url("/src/font/Pretendard-Regular.otf");
+}
+@font-face {
+    font-family: 'pretendard-semi-bold';
+    src: url("/src/font/Pretendard-SemiBold.otf");
+}
+@font-face {
+    font-family:'point-typo-1' ;
+    src: url("/src/font/ArchitectsDaughter-Regular.ttf");
+}
+
+.navbar {
+    font-size: 30px;
+    float:left;
+}
+.banner {
+    width:100vw;
+    background-image: url(/src/galaxy-landscape.jpg);
+    background-size: cover;
+    position:relative;
+    display: inline-block;
+}
+.banner-txt {
+    color: rgb(103, 103, 103);
+}
+.headline {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+.bg-2 {
+    width:100vw;
+    background-image: url(/src/image_2.jpg);
+    background-size: cover;
+    position:relative;
+    display: inline-block;
+    margin:auto;
+    
+}
+.slide-container {
+    width:300vw;
+    transition: transform 1s;
+}
+.slide {
+    width:100vw;
+    
+}
+.bg-3 {
+    width:100vw;
+    background-image: url(/src/bg_2.jpg);
+    background-size: cover;
+    position:relative;
+    
+}
+.bg-4 {
+    width:100vw;
+    background-image: url(/src/bg_3.jpg);
+    background-size: cover;
+    position:relative;
+    
+}
